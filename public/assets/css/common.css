@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/material-design-icons/MaterialIcons-Regular/MaterialIcons-Regular.eot');
+	src: url('../fonts/material-design-icons/MaterialIcons-Regular/MaterialIcons-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/material-design-icons/MaterialIcons-Regular/MaterialIcons-Regular.woff') format('woff'),
+	url('../fonts/material-design-icons/MaterialIcons-Regular/MaterialIcons-Regular.ttf') format('truetype'),
+	url('../fonts/material-design-icons/MaterialIcons-Regular/MaterialIcons-Regular.svg#Material Icons') format('svg');
+}
+@font-face {
+	font-family: 'Material Icons Outlined';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/material-design-icons/MaterialIconsOutlined-Regular/MaterialIconsOutlined-Regular.eot');
+	src: url('../fonts/material-design-icons/MaterialIconsOutlined-Regular/MaterialIconsOutlined-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/material-design-icons/MaterialIconsOutlined-Regular/MaterialIconsOutlined-Regular.woff') format('woff'),
+	url('../fonts/material-design-icons/MaterialIconsOutlined-Regular/MaterialIconsOutlined-Regular.ttf') format('truetype'),
+	url('../fonts/material-design-icons/MaterialIconsOutlined-Regular/MaterialIconsOutlined-Regular.svg#Material Icons Outlined') format('svg');
+}
+
+@font-face {
+	font-family: 'Material Icons Round';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/material-design-icons/MaterialIconsRound-Regular/MaterialIconsRound-Regular.eot');
+	src: url('../fonts/material-design-icons/MaterialIconsRound-Regular/MaterialIconsRound-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/material-design-icons/MaterialIconsRound-Regular/MaterialIconsRound-Regular.woff') format('woff'),
+	url('../fonts/material-design-icons/MaterialIconsRound-Regular/MaterialIconsRound-Regular.ttf') format('truetype'),
+	url('../fonts/material-design-icons/MaterialIconsRound-Regular/MaterialIconsRound-Regular.svg#Material Icons Round') format('svg');
+}
+
+@font-face {
+	font-family: 'Material Icons Sharp';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/material-design-icons/MaterialIconsSharp-Regular/MaterialIconsSharp-Regular.eot');
+	src: url('../fonts/material-design-icons/MaterialIconsSharp-Regular/MaterialIconsSharp-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/material-design-icons/MaterialIconsSharp-Regular/MaterialIconsSharp-Regular.woff') format('woff'),
+	url('../fonts/material-design-icons/MaterialIconsSharp-Regular/MaterialIconsSharp-Regular.ttf') format('truetype'),
+	url('../fonts/material-design-icons/MaterialIconsSharp-Regular/MaterialIconsSharp-Regular.svg#Material Icons Sharp') format('svg');
+}
+
+@font-face {
+	font-family: 'Material Icons Two Tone';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/material-design-icons/MaterialIconsTwoTone-Regular/MaterialIconsTwoTone-Regular.eot');
+	src: url('../fonts/material-design-icons/MaterialIconsTwoTone-Regular/MaterialIconsTwoTone-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/material-design-icons/MaterialIconsTwoTone-Regular/MaterialIconsTwoTone-Regular.woff') format('woff'),
+	url('../fonts/material-design-icons/MaterialIconsTwoTone-Regular/MaterialIconsTwoTone-Regular.ttf') format('truetype'),
+	url('../fonts/material-design-icons/MaterialIconsTwoTone-Regular/MaterialIconsTwoTone-Regular.svg#Material Icons Two Tone') format('svg');
+}
+
+.material-icons-two-tone {
+	font-family: 'Material Icons Two Tone';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+
+.material-icons-sharp {
+	font-family: 'Material Icons Sharp';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+.material-icons-round {
+	font-family: 'Material Icons Round';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+.material-icons-regular {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	vertical-align: middle;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+.material-icons-outlined {
+	font-family: 'Material Icons Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	vertical-align: middle;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-20 { font-size: 20px; }
+.material-icons.md-22 { font-size: 22px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-30 { font-size: 30px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+/*Bootstsrap*/
+@media (min-width: 1400px) {
+	.col-xxl {
+		flex: 1 0 0%;
+	}
+
+	.row-cols-xxl-auto > * {
+		flex: 0 0 auto;
+		width: auto;
+	}
+
+	.row-cols-xxl-1 > * {
+		flex: 0 0 auto;
+		width: 100%;
+	}
+
+	.row-cols-xxl-2 > * {
+		flex: 0 0 auto;
+		width: 50%;
+	}
+
+	.row-cols-xxl-3 > * {
+		flex: 0 0 auto;
+		width: 33.3333333333%;
+	}
+
+	.row-cols-xxl-4 > * {
+		flex: 0 0 auto;
+		width: 25%;
+	}
+
+	.row-cols-xxl-5 > * {
+		flex: 0 0 auto;
+		width: 20%;
+	}
+
+	.row-cols-xxl-6 > * {
+		flex: 0 0 auto;
+		width: 16.6666666667%;
+	}
+
+	.col-xxl-auto {
+		flex: 0 0 auto;
+		width: auto;
+	}
+
+	.col-xxl-1 {
+		flex: 0 0 auto;
+		width: 8.33333333%;
+	}
+
+	.col-xxl-2 {
+		flex: 0 0 auto;
+		width: 16.66666667%;
+	}
+
+	.col-xxl-3 {
+		flex: 0 0 auto;
+		width: 25%;
+	}
+
+	.col-xxl-4 {
+		flex: 0 0 auto;
+		width: 33.33333333%;
+	}
+
+	.col-xxl-5 {
+		flex: 0 0 auto;
+		width: 41.66666667%;
+	}
+
+	.col-xxl-6 {
+		flex: 0 0 auto;
+		width: 50%;
+	}
+
+	.col-xxl-7 {
+		flex: 0 0 auto;
+		width: 58.33333333%;
+	}
+
+	.col-xxl-8 {
+		flex: 0 0 auto;
+		width: 66.66666667%;
+	}
+
+	.col-xxl-9 {
+		flex: 0 0 auto;
+		width: 75%;
+	}
+
+	.col-xxl-10 {
+		flex: 0 0 auto;
+		width: 83.33333333%;
+	}
+
+	.col-xxl-11 {
+		flex: 0 0 auto;
+		width: 91.66666667%;
+	}
+
+	.col-xxl-12 {
+		flex: 0 0 auto;
+		width: 100%;
+	}
+
+	.offset-xxl-0 {
+		margin-left: 0;
+	}
+
+	.offset-xxl-1 {
+		margin-left: 8.33333333%;
+	}
+
+	.offset-xxl-2 {
+		margin-left: 16.66666667%;
+	}
+
+	.offset-xxl-3 {
+		margin-left: 25%;
+	}
+
+	.offset-xxl-4 {
+		margin-left: 33.33333333%;
+	}
+
+	.offset-xxl-5 {
+		margin-left: 41.66666667%;
+	}
+
+	.offset-xxl-6 {
+		margin-left: 50%;
+	}
+
+	.offset-xxl-7 {
+		margin-left: 58.33333333%;
+	}
+
+	.offset-xxl-8 {
+		margin-left: 66.66666667%;
+	}
+
+	.offset-xxl-9 {
+		margin-left: 75%;
+	}
+
+	.offset-xxl-10 {
+		margin-left: 83.33333333%;
+	}
+
+	.offset-xxl-11 {
+		margin-left: 91.66666667%;
+	}
+
+	.g-xxl-0,
+	.gx-xxl-0 {
+		--bs-gutter-x: 0;
+	}
+
+	.g-xxl-0,
+	.gy-xxl-0 {
+		--bs-gutter-y: 0;
+	}
+
+	.g-xxl-1,
+	.gx-xxl-1 {
+		--bs-gutter-x: 0.25rem;
+	}
+
+	.g-xxl-1,
+	.gy-xxl-1 {
+		--bs-gutter-y: 0.25rem;
+	}
+
+	.g-xxl-2,
+	.gx-xxl-2 {
+		--bs-gutter-x: 0.5rem;
+	}
+
+	.g-xxl-2,
+	.gy-xxl-2 {
+		--bs-gutter-y: 0.5rem;
+	}
+
+	.g-xxl-3,
+	.gx-xxl-3 {
+		--bs-gutter-x: 1rem;
+	}
+
+	.g-xxl-3,
+	.gy-xxl-3 {
+		--bs-gutter-y: 1rem;
+	}
+
+	.g-xxl-4,
+	.gx-xxl-4 {
+		--bs-gutter-x: 1.5rem;
+	}
+
+	.g-xxl-4,
+	.gy-xxl-4 {
+		--bs-gutter-y: 1.5rem;
+	}
+
+	.g-xxl-5,
+	.gx-xxl-5 {
+		--bs-gutter-x: 3rem;
+	}
+
+	.g-xxl-5,
+	.gy-xxl-5 {
+		--bs-gutter-y: 3rem;
+	}
+}
