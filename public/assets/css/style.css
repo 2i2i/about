@@ -1196,7 +1196,7 @@ img{
 	background-image:     -ms-linear-gradient(90deg, #04FF8A, #00C76A); 
 	background-image:      -o-linear-gradient(90deg, #04FF8A, #00C76A); 
 	background-image:         linear-gradient(90deg, #04FF8A, #00C76A);
-	color: #030C10;
+	color: #030C10 !important;
 }
 
 
