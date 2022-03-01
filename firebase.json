@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "target": "about-2i2i",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

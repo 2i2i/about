@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "main": "app-2i2i"
+  },
+  "targets": {
+    "app-2i2i": {
+      "hosting": {
+        "about-2i2i": [
+          "about-2i2i"
+        ]
+      }
+    }
+  }
+}
