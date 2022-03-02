@@ -8,10 +8,6 @@
 }
 
 
-
-
-
-
 /*---min-width------*/
 @media (min-width: 349.98px) {
 	
@@ -40,17 +36,6 @@
 @media (min-width: 1399.98px) {
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*---max-width------*/
 @media (max-width: 1599px){
@@ -108,7 +93,6 @@
         top: 17%;
         left: -1%;
     }
-
     .road-box h6{
         font-size: 22px;
     }
@@ -183,7 +167,6 @@
         display: inline-block;
         width: 100%;
     }
-    
     .signin-btn.login-buttons .header-btn{
         padding: 11px 17px;
         border-radius: 50%;
@@ -212,7 +195,6 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-
     .menu-dropdown .dropdown-menu {
         position: inherit;
         box-shadow: none;
@@ -353,7 +335,6 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
-
 }
 
 @media (max-width: 767.98px) {
@@ -374,11 +355,9 @@
     .nav-bar > ul > li > a{
         font-size: 14px
     }
-
     .menu-part .nav-bar {
         max-width: 510px;
     }
-
     .hero-content h1{
         font-size: 40px;
     }
@@ -421,7 +400,6 @@
     .crew-box p{
         font-size: 12px;
     }
-
 }
 
 @media (max-width: 575.98px) {
@@ -437,18 +415,15 @@
     .menu-part{
         top: 65px;
     }
-
     .main-content-sections{
         padding-top: 63px;
     }
-
     .hero-section{
         padding: 80px 0px;
     }
     .hero-section:before{
         opacity: 0.8;
     }
-
     .fea-box{
         text-align: center;
     }
@@ -459,7 +434,6 @@
         margin-bottom: 0;
     }
 }
-
 
 @media (max-width: 479.98px) {
     /* Header */
@@ -511,8 +485,6 @@
         max-width: 150px;
 
     }
-
-
 }
 
 

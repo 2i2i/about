@@ -1,8 +1,8 @@
 @import url('bootstrap.min.css');
 @import url('fontawesome.min.css');
-@import url('slick.css');
-@import url('slick-theme.css');
-@import url('common.css');
+@import url('slick.min.css');
+@import url('slick-theme.min.css');
+@import url('common.min.css');
 
 html{
 	width: 100%;
@@ -303,8 +303,6 @@ img{
 .dropdown-links li.active a {
 	color: #00D873;
 }
-.account-right {
-}
 .signin-btn{
 	margin-left: 5px;
 }
@@ -327,9 +325,6 @@ img{
 }
 .signin-btn .btn-primary:hover {
 	border-color: #1e2e50;
-}
-.signin-btn .btn-primary i {
-	
 }
 .signin-btn.login-buttons{
 	display: flex;
@@ -388,9 +383,6 @@ img{
 .right-menudata li a.right-link-data:focus, 
 .right-menudata li.active > a.right-link-data {
 	color: #5a8dee;
-}
-
-.menu-part {
 }
 .menu-overlay-bg {
 	position: fixed;
@@ -513,9 +505,6 @@ img{
 	font-size: 13px;
 	position: relative;
 	top: 0px;
-}
-.profile_log .dropdown-menu {
-	
 }
 .userprofile-header{
 	display: flex;
@@ -1199,12 +1188,7 @@ img{
 	color: #030C10 !important;
 }
 
-
-
 /*guest-section*/
-.guest-row{
-	
-}
 .guest-row .col-cust-box{
 	-ms-flex: 0 0 31%;
 	flex: 0 0 31%;
@@ -1609,9 +1593,7 @@ img{
 	border-radius: 10px;
 	border:1px solid transparent; /*2*/
 	background:linear-gradient(270deg, rgba(11, 238, 238, 0.2629) 65.72%, rgba(0, 218, 117, 0.8) 88.29%) border-box; /*3*/
-	-webkit-mask: /*4*/
-	linear-gradient(#fff 0 0) padding-box, 
-	linear-gradient(#fff 0 0);
+	-webkit-mask: /*4*/	linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
 	-webkit-mask-composite: xor; /*5'*/
 	mask-composite: exclude; /*5*/
 }

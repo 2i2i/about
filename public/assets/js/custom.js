@@ -36,20 +36,6 @@ $('.toggle-btn, .close-menu, .menu-overlay-bg').on('click', function(){
 });
 
 
-// if ($(window).width() < 1200){
-// 	$(window).scroll(function(){
-// 		var scroll = $(window).scrollTop();
-// 		if (scroll >= 15){
-// 			$('.menu-part').slideUp(300);
-
-// 		}else{
-// 			$('.menu-part').slideUp(300);
-
-// 		}
-// 	});
-// }
-
-
 // Multilevel Dropdown
 $(".dropdown-menu > .dropdown > a").addClass("dropdown-toggle");
 
