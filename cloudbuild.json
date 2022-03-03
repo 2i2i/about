@@ -1,0 +1,14 @@
+{
+  "steps": [
+   {
+      "name": "gcr.io/app-2i2i/firebase",
+      "args": [
+         "deploy",
+         "--project",
+         "app-2i2i",
+         "--only",
+         "hosting"
+       ]
+  }
+  ]
+}
