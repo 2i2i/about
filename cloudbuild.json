@@ -1,11 +1,11 @@
 {
   "steps": [
    {
-      "name": "gcr.io/app-2i2i/firebase",
+      "name": "gcr.io/$PROJECT_ID/firebase",
       "args": [
          "deploy",
          "--project",
-         "app-2i2i",
+         "$PROJECT_ID",
          "--only",
          "hosting"
        ]
