@@ -1347,6 +1347,9 @@ img{
 	margin: auto;
 	z-index: 1;
 }
+#partners .system-content-box img{
+	max-width: 120px;
+}
 .system-box-shadow{
 	background: rgba(158, 158, 158, 0.1);
 	backdrop-filter: blur(4px);
