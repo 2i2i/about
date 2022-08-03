@@ -1,2 +1,4 @@
+firebase logout
+firebase login
 firebase target:apply hosting about-2i2i about-2i2i
 firebase deploy --only hosting
